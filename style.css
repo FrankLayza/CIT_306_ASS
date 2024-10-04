@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #a882dd;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px rgb(134, 133, 133);
+}
+form input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 9px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+form select {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 9px;
+  border-radius: 5px;
+}
