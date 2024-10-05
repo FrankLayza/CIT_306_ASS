@@ -4,23 +4,31 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.container {
+body{
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.container {
+  height: auto; 
+  max-height: 100vh; 
+  padding: 20px;
+}
 form {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: #a882dd;
-  width: 300px;
+  background-color: #A288E3;
+  max-width: 400px;
+  width: 100%;
+  /* max-height: 600px; */
   border-radius: 20px;
   box-shadow: 4px 4px 5px rgb(134, 133, 133);
+  
 }
 form input {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   width: 100%;
   padding: 9px;
   border-radius: 5px;
@@ -32,5 +40,21 @@ form select {
   border: none;
   outline: none;
   padding: 9px;
+  margin-bottom: 10px;
   border-radius: 5px;
+}
+button{
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #FCFCFD;
+  font-size: 16px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+}
+button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
 }
