@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="container">
-      <form action="link.php" method="post">
+      <form id="user-form">
         <h2>DATA ENTRY FORM</h2>
         <label for="first">FirstName</label>
         <input
@@ -52,9 +52,15 @@
           <option value="Ghana">Ghana</option>
         </select>
         <label for="account">Account Number</label>
-        <input type="number" name="account" placeholder="Enter your account number" required />
-        <button>Submit</button>
+        <input
+          type="number"
+          name="account"
+          placeholder="Enter your account number"
+          required
+        />
+        <button type="submit">Submit</button>
       </form>
     </div>
+    <script src="link.js"></script>
   </body>
 </html>
